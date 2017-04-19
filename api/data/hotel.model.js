@@ -49,7 +49,7 @@ var hotelSchema = new mongoose.Schema({
     location :{
         address : String,
         //always store (longitude, latitud) order
-        coodinates :{ 
+        coordinates :{ 
             type: [Number],
             index: '2dsphere'
         }
