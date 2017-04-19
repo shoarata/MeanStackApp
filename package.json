@@ -1,0 +1,21 @@
+{
+  "name": "expressezample",
+  "version": "1.0.0",
+  "description": "first application using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "sho",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.4"
+  }
+}
